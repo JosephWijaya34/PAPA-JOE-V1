@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow: hidden;
+}
+
+:root {
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient( to bottom, #f32424, #f8cb2e);
+    --light-gray: rgba(255, 255, 255, gray);
+    --bgimg: url(../assets/background.jpg);
+}
+
+header {
+    background: var(--bgimg);
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav li a:hover {
+    color: black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}

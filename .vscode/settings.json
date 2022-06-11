@@ -1,0 +1,6 @@
+{
+    "breadcrumbs.filePath": false,//untuk menghilangkan tampilan direktori
+    "editor.fontSize": 15,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.iconTheme": "vscode-icons",
+}

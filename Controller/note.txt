@@ -1,0 +1,39 @@
+/////////////////////////////////////////////////////////////////
+/index.php/
+<tr>
+        <td><?=$barisdata['id']?></td>
+        <td><?=$barisdata['name']?></td>
+        <td><?=$barisdata['email']?></td>
+        <td><?=$barisdata['password']?></td>
+        <td><a href="delete.php?deleteID"></a></td>
+    </tr>
+----------------------------------------------------------------
+<ul>
+        <li><?=$barisdata['id']?></li>
+        <li><?=$barisdata['name']?></li>
+        <li><?=$barisdata['email']?></li>
+        <li><?=$barisdata['password']?></li>
+        <li>
+            <form action="delete.php" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="delete_id" value="<?=$barisdata['id']?>">
+                <input type="submit" value="x">
+            </form>
+        </li>
+    </ul>
+/////////////////////////////////////////////////////////////////
+/delete.php/
+<?php
+    include_once("controller.php");
+    if($_SERVER['REQUEST_METHOD'] === 'POST'){
+        if(isset($_POST["delete_id"])){
+        deleteUser($_POST["delete_id"]);
+        }
+    }
+    include_once("controller.php");
+    if($_SERVER['REQUEST_METHOD'] === 'GET'){
+        if(isset($_GET["delete_id"])){
+        deleteUser($_GET["delete_id"]);
+        }
+    }
+    header("Location: index.php");
+?>
