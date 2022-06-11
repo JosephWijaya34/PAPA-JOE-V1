@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e6705cd2f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=".//css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="darker">
+            <div class="container-fluid p-0">
+                <nav class="navbar navbar-expand-lg navbar-scrolled">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" style="color: whitesmoke;">PAPA JOE'S</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#" style="color: whitesmoke;">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: whitesmoke;">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: whitesmoke;">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 text-white">
+                        <h1 class="jtronH">Welcome to <span>PAPA JOE'S</span></h1>
+                        <p class="jtronP">Making and delivering great food for more than 5 years!</p>
+                        <a href="#menu"><button class="btn btn-light px-5 py-2">Our Menu</button></a>
+                    </div>
+                    <div class="col-md-5 col-sm-12 h-25">
+                        <!-- <img src="assets/img1.png"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="row justify-content-center " style="margin-top: 10px">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card shadow">
+                    <img src="../../view/admin/imgBarang/62a0ab0f05664.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <div class="card-title">
+                            <h4 class="fontHp">Artic 3</h4>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">Rp 1.009.000</h6>
+                    </div>
+
+                    <div class="card-footer text-center ">
+                        <a type="button" class="btn btn-dark buttonSize g-3" href="detailProduk.php?id=4">Beli</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container-fluid p-0 col-sm-12">
+            <div class="row text-left">
+                <div class="col-md-5 col-sm-12">
+                    <h1 class="text-light">PAPA JOE'S</h1>
+                    <p class="text-muted">Making and delivering great food for more than 5 years!</p>
+                    <p class="text-muted pt-4">Copyright @2022 All right reserve | PAPA JOE'S Website</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <h4 class="text-light">Review</h4>
+                    <p class="text-muted">Send us what you though about our food</p>
+                    <form class="form-inline">
+                        <div class="col-6 pl-0 mb-2">
+                            <div class="input-group pr-5">
+                                <input type="textarea" class="form-control bg-dark text-white" name="" id="">
+                            </div>
+                        </div>
+                        <div class="col-6 pl-0">
+                            <div class="input-group pr-5">
+                                <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Social Media</h4>
+                    <p class="text-muted">follow PAPA JOE'S on sosial media</p>
+                    <div class="column">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow: hidden;
+}
+
+:root {
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient( to bottom, #f32424, #f8cb2e);
+    --light-gray: rgba(255, 255, 255, gray);
+    --bgimg: url(../assets/background.jpg);
+}
+
+header {
+    background: var(--bgimg);
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    margin-top: 20px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 0px solid #fff;
+}
+
+.darker {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    color: #f8cb2e;
+}
+
+.jtronH {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.jtronP {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
